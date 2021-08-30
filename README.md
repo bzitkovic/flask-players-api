@@ -5,8 +5,8 @@ Flask API with the use of JWT token
 To use the API you first need to register with username and password
 
 ## POST /login
-For using the API you first need to login, if you don't have an account you need to register first. After you logged in, you get a JWS token for authentication
-which need to be in a header of every call as 'x-access-tokens'
+For using the API you first need to log in, if you don't have an account you need to register first. After you logged in, you get a JWS token for authentication 
+which needs to be in a header of every call as 'x-access-tokens'
 
 JSON object returned:
 ```json
@@ -66,7 +66,7 @@ Returns single player with specific <id> as JSON object
 ```
   
 ## POST /players
-Adds new player to the database if the request is POST call in JSON format
+Adds new player to the database if the request is POST method in JSON format
 Example:
 ```json
 {
