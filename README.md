@@ -44,8 +44,8 @@ Returns all the players in the database as JSON object
 ]
 ```
 
-## GET /players/<id>
-Returns single player with specific <id> as JSON object
+## GET /players/`<id>`
+Returns single player with specific `<id>` as JSON object
   
 ```json
 /players/2 returns: 
@@ -80,11 +80,10 @@ Example:
   
 If the request is successful the API return the newly inserted object
 
-## PUT /players/<id>
+## PUT /players/`<id>`
 
-Updated existing player with requested <id> in the database 
+Updates existing player with requested `<id>` in the database 
 
-Example:
 ```json
 {
 	"name": "Updated Alessandro",
