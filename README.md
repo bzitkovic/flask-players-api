@@ -96,8 +96,8 @@ Updates existing player with requested `<id>` in the database
   
 If the requst is successful the API returns updated object in JSON format
 
-## DELETE /players/<id>
+## DELETE /players/`<id>`
 
-Deletes the player with requested <id> from the database
+Deletes the player with requested `<id>` from the database
 
 
