@@ -1,4 +1,4 @@
-# Flask players api
+# Flask players API
 Flask API with the use of JWT token 
 
 ## POST /register
